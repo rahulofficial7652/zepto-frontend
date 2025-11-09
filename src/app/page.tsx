@@ -8,7 +8,7 @@ import { categories } from "@/lib/data";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <main className="flex flex-col">
       <section className="relative w-full bg-primary/10 py-20 md:py-32">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl md:text-6xl">
@@ -67,6 +67,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
