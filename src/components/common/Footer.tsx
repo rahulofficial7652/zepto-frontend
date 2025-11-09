@@ -7,7 +7,6 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 py-8 md:flex-row">
           <Link href="/" className="flex items-center space-x-2">
-            <Package2 className="h-6 w-6 text-primary" />
             <span className="font-bold">ZeptoClone</span>
           </Link>
           <p className="text-center text-sm text-muted-foreground md:text-left">
