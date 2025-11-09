@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "cat-veg",
+      "description": "Vegetables Category",
+      "imageUrl": "https://images.unsplash.com/photo-1610348725531-843dff563e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmVzaCUyMHZlZ2V0YWJsZXN8ZW58MHx8fHwxNzYyNjQzNDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh vegetables"
+    },
+    {
+      "id": "cat-fruit",
+      "description": "Fruits Category",
+      "imageUrl": "https://images.unsplash.com/photo-1715941873077-bc192a0e4fd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhc3NvcnRlZCUyMGZydWl0c3xlbnwwfHx8fDE3NjI2NjM2MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "assorted fruits"
+    },
+    {
+      "id": "cat-dairy",
+      "description": "Dairy & Breakfast Category",
+      "imageUrl": "https://images.unsplash.com/photo-1589977754678-89647f482dda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaWxrJTIwYnJlYWR8ZW58MHx8fHwxNzYyNjg3ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "milk bread"
+    },
+    {
+      "id": "cat-munchies",
+      "description": "Munchies Category",
+      "imageUrl": "https://images.unsplash.com/photo-1604565011092-c0fa4416f80f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3RhdG8lMjBjaGlwc3xlbnwwfHx8fDE3NjI2MjI4NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "potato chips"
+    },
+    {
+      "id": "cat-drinks",
+      "description": "Cold Drinks & Juices Category",
+      "imageUrl": "https://images.unsplash.com/photo-1621269495873-ac39491d2aab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2RhJTIwY2Fuc3xlbnwwfHx8fDE3NjI2ODc4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "soda cans"
+    },
+    {
+      "id": "cat-frozen",
+      "description": "Instant & Frozen Food Category",
+      "imageUrl": "https://images.unsplash.com/photo-1651383140368-9b3ee59c2981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcm96ZW4lMjBmb29kfGVufDB8fHx8MTc2MjY4NzgzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "frozen food"
+    },
+    {
+      "id": "prod-onion-1",
+      "description": "Onion",
+      "imageUrl": "https://images.unsplash.com/photo-1668295037469-8b0e8d11cd2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWQlMjBvbmlvbnxlbnwwfHx8fDE3NjI2ODc4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red onion"
+    },
+    {
+      "id": "prod-potato-1",
+      "description": "Potato",
+      "imageUrl": "https://images.unsplash.com/photo-1747503331142-27f458a1498c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMHBvdGF0b2VzfGVufDB8fHx8MTc2MjY4NzgzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh potatoes"
+    },
+    {
+      "id": "prod-tomato-1",
+      "description": "Tomato",
+      "imageUrl": "https://images.unsplash.com/photo-1631292172709-00b093a058b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyaXBlJTIwdG9tYXRvZXN8ZW58MHx8fHwxNzYyNjg3ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ripe tomatoes"
+    },
+    {
+      "id": "prod-carrot-1",
+      "description": "Carrot",
+      "imageUrl": "https://images.unsplash.com/photo-1617218607489-4d28d612bd07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmFuZ2UlMjBjYXJyb3RzfGVufDB8fHx8MTc2MjY4NzgzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange carrots"
+    },
+    {
+      "id": "prod-apple-1",
+      "description": "Apple",
+      "imageUrl": "https://images.unsplash.com/photo-1601236007883-e8c3079bebe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZWQlMjBhcHBsZXN8ZW58MHx8fHwxNzYyNjM1NTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red apples"
+    },
+    {
+      "id": "prod-banana-1",
+      "description": "Banana",
+      "imageUrl": "https://images.unsplash.com/photo-1620036924477-c3d6e9ce36fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyaXBlJTIwYmFuYW5hc3xlbnwwfHx8fDE3NjI1ODkxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ripe bananas"
+    },
+    {
+      "id": "prod-grapes-1",
+      "description": "Grapes",
+      "imageUrl": "https://images.unsplash.com/photo-1725195398648-f3454b552b20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmVlbiUyMGdyYXBlc3xlbnwwfHx8fDE3NjI1OTcyMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green grapes"
+    },
+    {
+      "id": "prod-milk-1",
+      "description": "Milk",
+      "imageUrl": "https://images.unsplash.com/photo-1685531309627-f0c9e8656ff9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaWxrJTIwY2FydG9ufGVufDB8fHx8MTc2MjY3MDU2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "milk carton"
+    },
+    {
+      "id": "prod-bread-1",
+      "description": "Bread",
+      "imageUrl": "https://images.unsplash.com/photo-1554933054-0b679a7982ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbGljZWQlMjBicmVhZHxlbnwwfHx8fDE3NjI2ODc4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sliced bread"
+    },
+    {
+      "id": "prod-butter-1",
+      "description": "Butter",
+      "imageUrl": "https://images.unsplash.com/photo-1664339031047-970bf639e43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXR0ZXIlMjBzdGlja3xlbnwwfHx8fDE3NjI2MDQ5MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "butter stick"
+    },
+    {
+      "id": "prod-lays-1",
+      "description": "Lays Chips",
+      "imageUrl": "https://images.unsplash.com/photo-1613919113640-25732ec5e61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3RhdG8lMjBjaGlwc3xlbnwwfHx8fDE3NjI2MjI4NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "potato chips"
+    },
+    {
+      "id": "prod-coke-1",
+      "description": "Coke",
+      "imageUrl": "https://images.unsplash.com/photo-1585498154575-3db0fda49f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2RhJTIwY2FufGVufDB8fHx8MTc2MjYyMDg0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "soda can"
+    },
+    {
+      "id": "prod-peas-1",
+      "description": "Frozen Peas",
+      "imageUrl": "https://images.unsplash.com/photo-1623758079816-4a5cb9adca1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcm96ZW4lMjBwZWFzfGVufDB8fHx8MTc2MjU5NzIxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "frozen peas"
+    }
+  ]
 }
