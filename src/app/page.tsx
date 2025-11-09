@@ -9,7 +9,7 @@ import { categories } from "@/lib/data";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <section className="relative w-full bg-primary/10 py-20 md:py-32">
+      <section className="relative w-full bg-muted/20 py-20 md:py-32">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
             <span className="text-primary">Groceries</span> delivered in minutes
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="mb-10 text-center text-3xl font-bold">
             Shop by Category
@@ -46,17 +46,18 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 lg:grid-cols-6">
             {categories.map((category) => (
               <Link key={category.id} href={`/products/${category.id}`}>
-                <Card className="group overflow-hidden rounded-2xl border-0 shadow-none transition-transform duration-300 hover:-translate-y-2">
+                <Card className="group overflow-hidden rounded-2xl border-0 shadow-sm transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
                   <CardHeader className="p-0">
-                    <Image
-                      src={category.image}
-                      alt={category.name}
-                      width={200}
-                      height={200}
-                      className="aspect-square w-full object-cover"
-                      data-ai-hint={category.imageHint}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <div className="relative aspect-square w-full">
+                      <Image
+                        src={category.image}
+                        alt={category.name}
+                        fill
+                        className="object-cover"
+                        data-ai-hint={category.imageHint}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                    </div>
                     <CardTitle className="absolute bottom-0 p-4 text-base font-semibold text-white md:text-lg">
                       {category.name}
                     </CardTitle>
