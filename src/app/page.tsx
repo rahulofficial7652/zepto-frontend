@@ -11,10 +11,10 @@ export default function Home() {
     <main className="flex flex-col">
       <section className="relative w-full bg-primary/10 py-20 md:py-32">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
             <span className="text-primary">Groceries</span> delivered in minutes
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-foreground/80">
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
             Your favorite local store, now online. Freshness and speed,
             guaranteed.
           </p>
